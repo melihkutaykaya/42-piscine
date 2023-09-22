@@ -6,7 +6,7 @@
 /*   By: melkaya <melkaya@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 19:51:41 by melkaya           #+#    #+#             */
-/*   Updated: 2023/09/18 15:45:10 by melkaya          ###   ########.fr       */
+/*   Updated: 2023/09/22 18:44:34 by melkaya          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putchar(char c)
 	write (1, &c, 1);
 }
 
-int	main(int argc, char const *argv[])
+int	main(int argc, char *argv[])
 {
 	int	i;
 
